@@ -1,0 +1,453 @@
+@media only screen and (max-width: 1440px){
+//Global
+.text {
+  font-size: 16px;
+}
+.container {
+ padding: 0 5%;
+}
+// Sections
+  .main {
+    &__inner {
+      padding-top: 30px;
+      padding-bottom: 40px;
+    }
+    &__nav-item {
+      font-size: 16px;
+      margin-left: 32px;
+    }
+    &__phone-numb {
+      font-size: 16px;
+    }
+    &__phone-numb .fas {
+      font-size: 19px;
+    }
+    &__heading {
+      font-size: 54px;
+      line-height: 1;
+      margin-bottom: 10px;
+    }
+    &__sub-heading {
+      font-size: 28px;
+      line-height: 1;
+    }
+    &__text {
+      margin-top: 2px;
+      max-width: 500px;
+    }
+    &__btn {
+      margin-top: -4px;
+      font-size: 26px;
+      padding: 10px 16px;
+    }
+    &__side-content {
+      width: 70px;
+    }
+    &__social-box .fab {
+      font-size: 40px;
+      margin-bottom: 25px;
+    }
+  }
+
+
+  .programs {
+
+    .slider-programs {
+      padding: 15px 0 100px;
+      position: relative;
+      & .prev-arrow {
+        left: -5%;
+        top: calc(50% - 30px);
+      }
+      & .next-arrow {
+        right: -5%;
+        top: calc(50% - 30px);
+      }
+
+    }
+    &__btn {
+      font-size: 32px;
+      font-family: 'Montserrat-Medium' ,sans-serif;
+      font-weight: 500;
+      display: inline-block;
+      padding: 8px 30px;
+      margin-top: 10px;
+    }
+  }
+
+  .contacts {
+    &__info {
+      font-size: 16px;
+    }
+    &__adress,&__phone {
+      margin-bottom: 16px;
+    }
+    &__map {
+      height: 500px;
+      iframe {
+        height: 500px!important ;
+      }
+    }
+   
+  }
+
+  .form {
+    &__input {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    &__btn {
+      font-size: 16px;
+      padding: 15px 30px; 
+     }
+  }
+  
+
+  .footer {
+    &__heading {
+      font-size: 30px;
+    }
+    &__text {
+      font-size: 13px;
+    }
+    &__end {
+      background-color: #1b1b1b;
+      display: flex;
+      justify-content: space-between;
+      padding: 16px 30px;
+        span { 
+          color: #fff;
+          opacity: 0.6;
+        }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+  //Global
+.text {
+  font-size: 15px;
+}
+.page-heading {
+  font-size: 38px;
+}
+.page-item {
+  min-width: 265px;
+  width: 265px;
+  text-align: center;
+  position: relative;
+  font-family: 'Montserrat-Medium', sans-serif;
+  font-weight: 500;
+  opacity: 0;
+  }
+.fa-chevron-left,  .fa-chevron-right {
+  min-width: 80px;
+  min-height: 50px;
+}
+  .main {
+    &__nav {
+      display: none;
+    }
+    .my-menu__item {
+      display: block;
+      margin-left: 0;
+    }
+    &__phone-numb {
+      font-size: 15px;
+      margin-right: 35px;
+    }
+    &__phone-numb .fas {
+      font-size: 17px;
+      padding-right: 8px;
+    }
+    &__small-size-navigation {
+      display: inline-block;
+    }
+    &__heading {
+      font-size: 50px;
+      margin-bottom: 18px;
+    }
+    &__sub-heading {
+      font-size: 25px;
+    }
+    &__text {
+      max-width: 480px;
+    }
+    &__burger-wrapper {
+      display: block;
+    }
+    &__btn {
+      font-size: 22px;
+      padding: 8px 14px;
+    }
+    &__social-box .fab  {
+      font-size: 35px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .programs {
+
+    .slider-programs {
+      padding: 15px 0 100px;
+      position: relative;
+      & .prev-arrow {
+        left: -4%;
+      }
+      & .next-arrow {
+        right: -4%;
+      }
+    }
+    .card {
+    width: 300px;
+    height: 417px;
+    &__front {
+      &-cover {
+          span {
+            font-size: 30px;
+          }
+      }
+    }
+    &__btn {
+      font-size: 30px;
+      padding: 8px 30px;
+    }
+  }
+  }
+  .contacts {
+    background-color: #F9F9F9;;
+    &__info {
+      font-size: 15px;
+    }
+    &__info-heading {
+      font-size: 32px;
+    }
+    &__info-text {
+      width: 320px;
+    }
+    &__adress,&__phone {
+      margin-bottom: 20px;
+    }
+   
+  }
+  .form {
+    &__input {
+      font-size: 15px;
+    }
+  }
+
+  .footer {
+
+    &__heading {
+      font-size: 27px;
+    }
+    &__text {
+      font-size: 13px;
+    }
+    &__social-box {
+      .fab {
+        font-size: 22px;
+      }
+    }
+    &__end {
+        span { 
+          font-size: 12px;
+        }
+    }
+  }
+  
+}
+
+@media only screen and (max-width: 992px) {
+  //Global 
+  .page-heading {
+    font-size: 35px;
+  }
+  .nav-item {
+    font-size: 17px;
+  }
+  
+  .main {
+    &__heading {
+      font-size: 44px;
+      margin-bottom: 10px;
+  
+    }
+    &__sub-heading {
+      font-size: 28px;
+    }
+    &__text {
+      max-width: 430px;
+    }
+    &__phone-numb {
+    margin-right: 45px;
+    }
+    &__btn {
+      font-size: 28px;
+      padding: 10px 18px;
+    }
+    &__burger-wrapper {
+      right: 0.5%;
+      .mburger {
+        --mb-bar-width: 0.5;
+        --mb-bar-spacing: 8px;
+      }
+    }
+    &__social-box .fab {
+      display: block;
+      font-size: 33px;
+      text-align: center;
+      margin-bottom: 22px;
+    }
+  }
+  .programs {
+    .slider-programs {
+      & .prev-arrow {
+        left: 0;
+      }
+      & .next-arrow {
+        right: 0;
+      }
+    }
+  }
+  .contacts {
+    background-color: #F9F9F9;;
+    &__wrapper {
+      padding: 70px 0 100px;
+      display: flex;
+      flex-direction: column;
+    }
+ 
+    &__info-heading {
+      font-size: 28px;
+    }
+    &__info-text {
+      width: 80%;
+    }
+    &__email {
+      margin-bottom: 40px;
+    }
+
+  }
+  .form {
+  width: 531px;
+  &__input {
+    width: 260px;
+   }
+   &__textarea, &__title {
+    width: 100%;
+  }
+  }
+}
+@media only screen and (max-width: 600px) {
+//Global 
+  .animate__animated {
+    animation-delay: 0.15s
+  }
+  .page-heading {
+    font-size: 30px;
+  }
+  .page-section {
+    padding-top: 30px;
+  }
+  .page-items {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main {
+    &__navigation {
+      flex-direction: column;
+    }
+    &__heading {
+      font-size: 38px;
+    }
+    &__sub-heading {
+      font-size: 24px;
+    }
+    &__text {
+      max-width: 240px;
+    }
+    &__side-content {
+      width: 55px;
+    }
+    &__burger-wrapper {
+      right: 0;
+      margin-right: -2px;
+    }
+    &__btn {
+      font-size: 20px;
+      padding: 8px 13px;
+    }
+    
+  }
+  .programs {
+    .slider-programs {
+      padding: 5px 0 40px;
+      &__item {
+        padding:25px 0 20px;
+      }
+    }
+  }
+  
+  .contacts {
+    &__wrapper {
+      padding: 30px 0 40px;
+    }
+    &__form-wrapper {
+      background: url('../images/dest/contact-us-bg.png') no-repeat right bottom;
+      background-size: 150%;
+    } 
+  }
+  .form {
+    width: 400px;
+    &__input {
+      width: 194.5px;
+    }
+    &__title {
+      width: 100%;
+    }
+    &__textarea {
+      width: 100%;
+    }
+  }
+
+  .footer {
+    &__inner {
+      padding: 25px 0;
+    }
+    &__text {
+      width: 280px;
+    }
+    &__end {
+      display: flex;
+      flex-direction: column;
+        span { 
+          font-size: 11px;
+        }
+    }
+  }
+}
+
+@media only screen and (max-width: 450px){
+  .contacts {
+    background-color: #F9F9F9;;
+    &__info-text {
+      width: 95%;
+    }
+  }
+  .form {
+    width: 100%;
+    margin: 0 auto;
+    &__input {
+      width: 100%;
+    }
+    &__title {
+      width: 100%;
+    }
+    &__textarea {
+      width: 100%;
+    }
+  }
+}
